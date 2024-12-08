@@ -9,8 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
+        background: "#f6f0f0",
+        myPink : "#F98585",
+        myBlack: "#21243D",
+        footerBackground: "#FAF5F5",
+        recentBackground: "#F4E2E2",
         foreground: "var(--foreground)",
+        heroElispe: "#dfd8d8",
       },
     },
   },
