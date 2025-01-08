@@ -1,11 +1,10 @@
 "use client"
 import React from 'react'
-import {Heebo} from "next/font/google"
-import { div } from 'three/webgpu'
+// import {Heebo} from "next/font/google"
 import Link from 'next/link'
 import Image from "next/image"
 
-const heebo = Heebo({subsets:['latin']})
+// const heebo = Heebo({subsets:['latin']})
 
 const RecentPostCard = () => {
     return(
@@ -207,7 +206,7 @@ const RecentPostCard = () => {
         </div>
 
 
-    )
+    );
 }
 
 export default RecentPostCard

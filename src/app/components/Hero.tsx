@@ -3,7 +3,7 @@ import React from "react"
 import Typewriter from "typewriter-effect"
 import Image from "next/image"
 import { Heebo } from "next/font/google"
-import Link from "next/link"
+
 
 const heebo = Heebo({subsets:['latin']})
 

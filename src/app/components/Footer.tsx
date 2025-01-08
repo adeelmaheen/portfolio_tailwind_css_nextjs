@@ -1,8 +1,5 @@
-import { FaFacebookSquare, FaLinkedin, FaTwitter } from "react-icons/fa"
+import { FaFacebookSquare, FaLinkedin, FaTwitter,FaInstagram } from "react-icons/fa"
 import { Heebo } from "next/font/google"
-import { FaInstagram } from "react-icons/fa"
-import exp from "node:constants"
-import React from "react"
 import Link from "next/link"
 
 const heebo = Heebo({subsets:["latin"]})

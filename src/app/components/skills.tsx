@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaCheck } from "react-icons/fa";
-import { div } from 'three/webgpu'
+
 
 const Skills = () => {
      return(
@@ -206,6 +206,6 @@ const Skills = () => {
 </section>
 
         </div>
-     )
+     );
 }
 export default Skills

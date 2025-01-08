@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'next/link'
+
 import {Heebo} from 'next/font/google'
 import RecentPostCard from './recentPstCard'
 

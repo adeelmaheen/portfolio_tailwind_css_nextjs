@@ -7,7 +7,7 @@ const inter = Inter({subsets:['latin']})
 
 const Navbar = () => {
     // navbar items here
-    let navItems = [
+    const navItems = [
         {
             name:"About",
             link:"#"
@@ -46,3 +46,4 @@ const Navbar = () => {
 } 
 
 export default Navbar
+

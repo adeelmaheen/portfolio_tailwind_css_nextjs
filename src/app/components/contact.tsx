@@ -1,5 +1,4 @@
-import react from "react"
-import { div } from "three/webgpu"
+
 
 const Contact = () => {
     return (
