@@ -1,9 +1,9 @@
 import React from 'react'
 
-import {Heebo} from 'next/font/google'
+// import {Heebo} from 'next/font/google'
 import RecentPostCard from './recentPstCard'
 
-const heebo = Heebo({subsets:['latin']})
+// const heebo = Heebo({subsets:['latin']})
 
 const RecentPost = () => {
     return(

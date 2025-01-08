@@ -3,6 +3,13 @@ import React from 'react'
 // import {Heebo} from "next/font/google"
 import Link from 'next/link'
 import Image from "next/image"
+import imageGenerator from "../../../public/assets/image-generator.png";
+import quizApp from "../../../public/assets/quiz-app.png";
+import jarvis from "../../../public/assets/jarvis.png";
+import editableCv from "../../../public/assets/editable-cv.png";
+import bgRemover from "../../../public/assets/bg-remover.png";
+import codeEditor from "../../../public/assets/code-editor.png";
+
 
 // const heebo = Heebo({subsets:['latin']})
 
@@ -23,7 +30,7 @@ const RecentPostCard = () => {
                 <Image
                     alt='gallery'
                     className='absolute inset-0 w-full h-full object-cover object-center'
-                    src={require("../../../public/assets/image-generator.png")}
+                    src={imageGenerator}
                 />
                 <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
                     <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
@@ -53,7 +60,7 @@ const RecentPostCard = () => {
                 <Image
                     alt='gallery'
                     className='absolute inset-0 w-full h-full object-cover object-center'
-                    src={require("../../../public/assets/quiz-app.png")}
+                    src={quizApp}
                 />
                 <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
                     <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
@@ -83,7 +90,7 @@ const RecentPostCard = () => {
                 <Image
                     alt='gallery'
                     className='absolute inset-0 w-full h-full object-cover object-center'
-                    src={require("../../../public/assets/jarvis.png")}
+                    src={jarvis}
                 />
                 <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
                     <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
@@ -113,7 +120,7 @@ const RecentPostCard = () => {
                 <Image
                     alt='gallery'
                     className='absolute inset-0 w-full h-full object-cover object-center'
-                    src={require("../../../public/assets/editable-cv.png")}
+                    src={editableCv}
                 />
                 <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
                     <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
@@ -143,7 +150,7 @@ const RecentPostCard = () => {
                 <Image
                     alt='gallery'
                     className='absolute inset-0 w-full h-full object-cover object-center'
-                    src={require("../../../public/assets/bg-remover.png")}
+                    src={bgRemover}
                 />
                 <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
                     <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
@@ -173,7 +180,7 @@ const RecentPostCard = () => {
                 <Image
                     alt='gallery'
                     className='absolute inset-0 w-full h-full object-cover object-center'
-                    src={require("../../../public/assets/code-editor.png")}
+                    src={codeEditor}
                 />
                 <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
                     <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
