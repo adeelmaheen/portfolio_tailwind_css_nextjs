@@ -9,6 +9,8 @@ import jarvis from "../../../public/assets/jarvis.png";
 import editableCv from "../../../public/assets/editable-cv.png";
 import bgRemover from "../../../public/assets/bg-remover.png";
 import codeEditor from "../../../public/assets/code-editor.png";
+import wooden from "../../../public/assets/Ss_wooden.png";
+import Shopr from "../../../public/assets/SS_shopr.png";
 
 
 // const heebo = Heebo({subsets:['latin']})
@@ -16,7 +18,7 @@ import codeEditor from "../../../public/assets/code-editor.png";
 const RecentPostCard = () => {
     return(
         <div id='project'>
-            <section className='text-black body-font pb-[4rem]'>
+            <section className='text-black body-font pb-[4rem] '>
                 <div className='container px-5 py-15 mx-auto'>
                     <div className='flex flex-col text-center w-full mb-10'>
                         <h1 className='sm:text-3xl text-2xl font-medium title-font mb-10 text-black'>
@@ -193,6 +195,66 @@ const RecentPostCard = () => {
 
                     </p>
                     <Link target='_blank' href={"https://code-editor-gamma-gilt.vercel.app/"}>
+                    <p className='leading-relaxed text-myPink hover:underline'>
+                            View Project...
+                    </p>
+                    </Link>
+                </div>
+
+
+
+            </div>
+
+                        </div>
+                         {/*Projects Ecommerce*/}
+                         <div className='lg:w-1/3 sm:w-1/2 p-4 cursor-pointer w-[100%]'>
+            <div className='flex relative'>
+                <Image
+                    alt='gallery'
+                    className='absolute inset-0 w-full h-full object-cover object-center'
+                    src={Shopr}
+                />
+                <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
+                    <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
+                           Shopr Ecommerce Website
+                    </h2>
+                    <h1 className='title-font text-lg font-medium text-black mb-3'>
+                            Made by me 
+                    </h1>
+                    <p className='leading-relaxed line-clamp-2'>
+
+                    </p>
+                    <Link target='_blank' href={"https://ecommerce-shopr-ten.vercel.app/"}>
+                    <p className='leading-relaxed text-myPink hover:underline'>
+                            View Project...
+                    </p>
+                    </Link>
+                </div>
+
+
+
+            </div>
+
+                        </div>
+                         {/*Projects Wooden Craft Website*/}
+                         <div className='lg:w-1/3 sm:w-1/2 p-4 cursor-pointer w-[100%]'>
+            <div className='flex relative'>
+                <Image
+                    alt='gallery'
+                    className='absolute inset-0 w-full h-full object-cover object-center'
+                    src={wooden}
+                />
+                <div className='px-8 py-10 relative z-10 w-full border-4 border-x-gray-200 bg-white opacity-0 hover:opacity-100'>
+                    <h2 className='tracking-widest text-sm title-font font-medium text-myPink mb-1'>
+                            Carving Art Bringing Wood to Life
+                    </h2>
+                    <h1 className='title-font text-lg font-medium text-black mb-3'>
+                            Made by me 
+                    </h1>
+                    <p className='leading-relaxed line-clamp-2'>
+
+                    </p>
+                    <Link target='_blank' href={"https://wooden-website.vercel.app/"}>
                     <p className='leading-relaxed text-myPink hover:underline'>
                             View Project...
                     </p>
